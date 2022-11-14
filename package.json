@@ -3,24 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "react-icons": "^4.6.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -34,5 +30,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/carousel": "^5.7.2",
+    "@mantine/core": "^5.7.2",
+    "@mantine/dates": "^5.7.2",
+    "@mantine/ds": "^5.7.2",
+    "@mantine/form": "^5.7.2",
+    "@mantine/hooks": "^5.7.2",
+    "@mantine/modals": "^5.7.2",
+    "@mantine/notifications": "^5.7.2",
+    "@mantine/prism": "^5.7.2",
+    "@tabler/icons": "^1.111.0",
+    "dayjs": "^1.11.6",
+    "embla-carousel-react": "^7.0.5"
   }
 }
